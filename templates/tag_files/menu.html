@@ -1,0 +1,6 @@
+<div class="card w-100 my-3" style="width: 18rem">
+  <div class="card-header">{{ menu.title }}</div>
+  <ul class="list-group list-group-flush p-2" id="main-ul">
+    {% for menu in menu_items %} {% include "tag_files/tree_menu.html" %} {% endfor %}
+  </ul>
+</div>

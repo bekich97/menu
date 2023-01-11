@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load draw_menu %}
+
+{% block sidebar %}
+{% draw_menu 'menu-1' %}
+{% draw_menu 'menu-2' %}
+{% draw_menu 'menu-3' %}
+{% draw_menu 'menu-4' %}
+{% draw_menu 'menu-5' %}
+{% endblock %}
+
+{% block content %}
+
+<div class="my-3">
+    <p><b>Title:</b> {{ url_menu.title }}</p>
+    <p><b>URL:</b> {{ url_menu.url }}</p>
+</div>
+
+{% endblock %}
