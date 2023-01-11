@@ -29,7 +29,7 @@ I use Ubuntu, so my commands are Ubuntu commands.
 
 `python manage.py createsuperuser`
 
-5. Run DB seed command. Integer arguments after command is count of menus and menu items. You can write how many you want.
+5. Run DB seed command. Integer arguments after command are count of menus and menu items. You can write how many you want.
 
 `python manage.py dbseed 5 20`
 
