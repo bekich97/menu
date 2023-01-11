@@ -3,7 +3,7 @@
 ### Requirements
 * Internet :)
 * Python3
-* Django >= 3.1
+* Django==4.1
 * Bootstrap 5
 
 ### Usage
